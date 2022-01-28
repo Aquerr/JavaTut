@@ -16,7 +16,19 @@ public class TypyZmiennych
 
         // Java jest statycznie typowanym językiem, oznacza to że każda zmienna musi być zostać najpierw zadeklarowana zanim zostanie użyta.
         // Deklaracja polega na określeniu typu zmiennej oraz nadania jej wybranej przez nas nazwy.
-        // Np.
+        // To znaczy. Najpierw piszemy jakiego typu ma być nasza zmienna. Np. int
+
+        // int
+
+        // Później piszemy jej nazwę. Może to być dowolne słowo.
+        // W Javie z reguły używamy tutaj małych liter a każde kolejne słowo piszemy z dużej litery (bez spacji). Np. wiek, mojWiek, mojUkochanyPies
+
+        // int wiek
+
+        // Kolejno piszemy znak równa się oznaczający że chcemy coś przypisać do naszej zmiennej.
+        // int wiek =
+
+        // I na końcu piszemy wartość jaką ma otrzymać nasza zmienna i kończymy wyrażenie średnikiem. Np. 34
         // int wiek = 34;
 
         // ----------------------------------------------------------------------------------------------------
@@ -72,7 +84,7 @@ public class TypyZmiennych
         // Np.
         int mojWiek = 50;
 
-        // Zmienna "mojWiek" bezpośrednio przechowuje wartość 50 typu integer. Nie jest to referencja.
+        // Zmienna "mojWiek" bezpośrednio przechowuje wartość 50 typu integer. Nie jest to "referencja".
 
         // Utwórzmy sobie teraz zmienną typu String
         String zdanie = "Witaj świecie!";

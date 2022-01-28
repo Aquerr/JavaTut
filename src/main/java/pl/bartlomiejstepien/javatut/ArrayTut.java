@@ -1,5 +1,7 @@
 package pl.bartlomiejstepien.javatut;
 
+import java.util.Arrays;
+
 public class ArrayTut
 {
     public static void main(String[] args)
@@ -162,28 +164,58 @@ public class ArrayTut
         // 5. Zmienna "liczba" zawiera teraz liczbę 3.
 
         // ---------------------------------------------------------------------------------------------------------------------------
-        // ------------------------------------------------------ ITERACJA -----------------------------------------------------------
+        // ------------------------------------------ Sprawdzanie wielkości Array'a --------------------------------------------------
 
-        // Iteracja = Odwiedzanie każdej komórki w array'u. Inaczej mówiąc, iteracja to "przechodzenie przez listę elementów", element po elemencie.
+        // Aby dowiedzieć się jaką wielkość ma dany array... tzn. ile ma w sobie komórek używamy operacji "length" na naszym arrayu.
+        // Przykład:
 
-        // Do przejścia przez wszystkie elementy w Array'u najczęściej używamy "pętli".
-        // W Javie istnieje kilka różnych pętli które można wykorzystać do iteracji.
-        // Są to:
-        // Pętla "for"
-        // Pętla "for each"
-        // Pętla "while"
-        // Pętla "do while"
+        // Tworzymy array z 10 komórkami.
+        int[] mojArrayZ10Komorkami = new int[10];
 
-        // Więcej o nich w poradniku o pętlach.
+        // Wyciągamy jego wielkość.
+        int wielkoscArraya = mojArrayZ10Komorkami.length;
 
-        // Do iteracji po naszym array'u użyjemy pętli "for".
+        // Poniższa operacja wypisze w konsoli 'Wielkość mojego array'a to ==> 10'
+        System.out.println("Wielkość mojego array'a to ==> " + wielkoscArraya);
+
+        // ---------------------------------------------------------------------------------------------------------------------------
+        // ------------------------------------ Wypisywanie całego array'a w konsoli -------------------------------------------------
+
+        // Często może zdarzyć się nam że będziemy chcieli wypisać cały Array w konsoli. Możemy to osiągnąć w bardzo prosty sposób
+        // Wybraźmy sobie że mamy taki array.
+
+        int[] arrayDoWypisania = {2, 6, 3, 0, 8, 1, 3, 6, 3, 5};
+
+        // Możemy go zwizualizować następująco:
+        // -------------------------------------------------------------
+        // |  2  |  6  |  3  |  0  |  8  |  1  |  3  |  6  |  3  |  5  |
+        // -------------------------------------------------------------
+
+        // Wypisując taki array bezpośrednio do konsoli przy pomocy System.out.println zobaczymy tylko adres w pamięci danego array'a.
+        System.out.println("Array do wypisania: " + arrayDoWypisania);
+
+        // Żeby w konsoli wyświetliła nam się faktycznie zawartość takiego arraya jak w naszej wizualizacji musimy najpierw zamienić go w String
+        // Możemy manualnie zbudować sobie taki String wyciągająć krok po kroku każdą liczbę i dodając ją do Stringa
+        // lub możemy użyć gotowej już funkcji Arrays.toString(naszArray).
+        // Przykład:
+        String mojArrayJakoString = Arrays.toString(arrayDoWypisania);
+        System.out.println(mojArrayJakoString);
 
 
+        // ---------------------------------------------------------------------------------------------------------------------------
+        // --------------------------------------------------------- Zadania ---------------------------------------------------------
 
+        // 1. Stwórz array przechowujący inty o wielkości 3 komórek.
+        // Wstaw do pierwszej komórki liczbę 40, do drugiej 20 a do trzeciej 10
+        // Wypisz cały array w konsoli przy pomocy System.out.println oraz Arrays.toString
 
+        // 2. Stwórz array przechwoujący inty o wielkości 2 komórek.
+        // Wstaw do drugiej komórki liczbę 50.
+        // Wyciągnij ją i przechowaj w zmiennej.
+        // Wypisz zmienną w konsoli przy pomocy System.out.println tak aby liczba 50 wypisała się w konsoli.
 
-
-
+        // 3. Utwórz array posiadający kilka nazw owoców. Np. Jabłko, Gruszka, Mandarynka
+        //   Następnie wypisz w konsoli wielkość tego arraya przy pomocy funkcji "length".
 
     }
 }

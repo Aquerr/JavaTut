@@ -2,9 +2,6 @@ package pl.bartlomiejstepien.javatut;
 
 public class MainFiles
 {
-
-
-
     // Zadanie z loggerem:
 
     //1. Stwórz klasę o nazwie Logger.
@@ -13,4 +10,3 @@ public class MainFiles
     //4. Każda z metod powinna przyjmować jeden parametr typu String.
     //5. Po użyciu każdej z metod, Logger powinien wypisać do pliku "logs.txt" log/wiadomość zawierającą obecną datę oraz godzinę, typ logu (czyli [DEBUG], [INFO], [WARN] lub [ERROR]), nazwę klasy, która go użyła (podana przy utworzeniu loggera), oraz wiadomość podaną jako parametr do metody.
 }
-e

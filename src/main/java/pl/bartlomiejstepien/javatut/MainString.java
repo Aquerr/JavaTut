@@ -6,7 +6,10 @@ public class MainString
 {
     public static void main(String[] args)
     {
-        // Dzisiaj nauczymy się bardziej szczegółowo czym jest "String"
+        // ---------------------------------------------------------------------------------------------------------------------------
+        // ------------------------------------------------------ String -------------------------------------------------------------
+
+        // Dzisiaj nauczymy się bardziej szczegółowo czym jest "String" czyli jeden z naczęściej używanych typów w Javie.
 
         // String jest strukturą/typem danych przechowujący "sekwencję znaków".
         // Może to być jedno słowo lub całe zdanie.
@@ -19,14 +22,32 @@ public class MainString
          String mojaLiterka = "M";
          String mojaZmiennaTrzy = new String("To moja nowa zmienna w Stringu");
 
+        // Możemy również łączyć Stringi przy pomocy plusa +
+        // Na przykład:
+        String mojPolaczonyString = "Łączenie stringów " + "jest przydatne!";
+
+        // Poniższa operacja wypisze w konsoli zdanie 'Łączenie stringów jest przydatne!'
+        System.out.println(mojPolaczonyString);
+
+        // Przykład 2:
+        String pierwszaCzescMojegoZdania = "Witaj mój drogi ";
+        String drugaCzescMojegoZdania = "Dariuszu!";
+        String caleZdanie = pierwszaCzescMojegoZdania + drugaCzescMojegoZdania;
+
+        // Poniższa operacja wypisze w konsoli zdanie 'Witaj mój drogi Dariuszu!'
+        System.out.println(caleZdanie);
+
+        // ---------------------------------------------------------------------------------------------------------------------------
+        // ----------------------------------- Pozostałe operacje dostępne na Stringach ----------------------------------------------
+
         // Kiedy utworzymy zmienną typu String możemy na niej wywołać wiele przydanch funkcji/metod.
         // Np.:
-        // substring - zwraca część Stringa
-        // equals - porównuje Stringa z innym Stringiem
-        // toUpperCase - zwraca Stringa mającego zamienione wszystkie litery na drukowane.
-        // toLowerCase - zwraca Stringa mającego zamienione wszystkie litery na małe.
-        // getBytes - zwraca sekwencję bajtową Stringa
-        // endsWith - sprawdza czy String kończy się danym przyrostekiem/sufiksem
+        // substring(start, end) - zwraca część Stringa
+        // equals(obiekt) - porównuje Stringa z innym Stringiem
+        // toUpperCase() - zwraca Stringa mającego zamienione wszystkie litery na drukowane.
+        // toLowerCase() - zwraca Stringa mającego zamienione wszystkie litery na małe.
+        // getBytes() - zwraca sekwencję bajtową Stringa
+        // endsWith(string) - sprawdza czy String kończy się danym przyrostekiem/sufiksem
 
         // Przykłady w praktyce
         // substring

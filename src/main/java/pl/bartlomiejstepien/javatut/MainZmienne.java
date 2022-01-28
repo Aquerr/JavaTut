@@ -44,32 +44,14 @@ public class MainZmienne
         // Dodaj liczby do siebie i przechowaj wynik w kolejnej zmiennej.
         // Wypisz wynik za pomocą funkcji System.out.println
 
-        int x = 8;
-        int y = 2;
-        int wynik = x+y;
-        System.out.println(wynik);
-
-
-
-
         // Zadanie 2:
         // Stwórz zmienną i przypisz do niej zdanie "Witaj świecie!"
         // Wypisz ją przy pomocy funckji System.out.println
-
-
-        String nazwisko = "Witaj Świecie";
-        System.out.println(nazwisko);
-
-
 
         // Zadanie 3:
         // Stwórz dwie zmienne. Jedna z liczbą 50 a druga z liczbą 10
         // Podziel zmienną z liczbą 50 przez zmienną z liczbą 10
         // Następnie odejmij od wyniku liczbę 5 i wypisz wynik funkcją System.out.println
 
-        int z = 50;
-        int a = 10;
-        int wynik1 = (z/a);
-        System.out.println(wynik1 - 5);
     }
 }

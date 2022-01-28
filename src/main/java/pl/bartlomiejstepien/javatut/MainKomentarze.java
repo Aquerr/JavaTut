@@ -4,7 +4,8 @@ public class MainKomentarze
 {
     public static void main(String[] args)
     {
-        // Komentarze w Javie tworzymy przy pomocy dwóch ukośników
+        // Komentarz to krótko mówiąc tekst/kod, który nie zostanie uruchomiony podczas działania programu.
+        // <----- Komentarze w Javie tworzymy przy pomocy dwóch ukośników znajdujących się na początku linijki
         // Przykład:
 
         // To jest mój prosty komentarz
