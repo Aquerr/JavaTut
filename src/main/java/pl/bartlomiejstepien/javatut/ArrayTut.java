@@ -82,16 +82,12 @@ public class ArrayTut
         // Oto jak możemy utworzyć prostego array'a o pojemności 10 przechowującego dane typu int.
         int[] mojArray = new int[10];
 
-
-
         // Wyjaśnienie jak to robimy:
         // 1. Piszemy najpierw jaki typ danych ma być przechowywany przez naszego array'a i dopisujemy za nim nawiasy kwadratowe oznaczające że chcemy utworzyć tutaj arraya.
         // 2. Piszemy nazwę naszej zmiennej, w tym przypadku "mojArray", która będzie przechowywała naszego array'a.
         // 3. Piszemy znak "równa się" gdyż chcemy do tej zmiennej przypisać wartość.
         // 4. Wartością którą chcemy przypisać do naszej zmiennej to "nowy array typu int o pojemności 10" dlatego piszemy "new int[10]".
         // 5. Kończymy "wyrażenie" ; średnikiem jak każde "wyrażenie" w Javie.
-
-
 
         // W tym momencie mamy już naszego array'a, naszą kolekcję danych przechowującą liczby całkowite.
         // Jakie liczby są w środku skoro jeszcze żadnej liczby nie dodaliśmy do naszego arraya?
@@ -110,7 +106,16 @@ public class ArrayTut
         // W tym przypadku utworzyliśmy arraya przechowującego typ danych "int" czyli liczby całkowite.
         // Z racji że domyślną wartością typu "int" jest 0, każda komórka w arrayu ma wartość 0.
 
-        // Każdy typ danych ma inną domyślną wartość. Więcej o tym w poradniku o typach danych.
+
+
+        // Uwaga! Jeśli przed utworzeniem array'a znasz wartości jakie mają się w nim znaleźc możesz również utworzyć go "skrócony sposób", tzn.
+        int[] mojArray2 = {1, 2, 3, 4}; // Taki array od razu ma w sobie wartości 1, 2, 3, 4
+
+        // Przykład dla array'a z wartościami typu String
+        String[] mojArray3 = {"Wyraz1", "Wyraz2", "Wyraz3"};
+
+
+
 
 
 
@@ -201,6 +206,32 @@ public class ArrayTut
         String mojArrayJakoString = Arrays.toString(arrayDoWypisania);
         System.out.println(mojArrayJakoString);
 
+        // ---------------------------------------------------------------------------------------------------------------------------
+        // --------------------------------------------- Sortowanie array'a ----------------------------------------------------------
+
+        // Może się zdarzyć że będziemy potrzebowali posortować naszego array'a.
+        int[] arrayDoPosorotwania = {2, 6, 3, 0, 8, 1, 3, 6, 3, 5};
+
+        // Możemy go zwizualizować następująco:
+        // -------------------------------------------------------------
+        // |  2  |  6  |  3  |  0  |  8  |  1  |  3  |  6  |  3  |  5  |
+        // -------------------------------------------------------------
+
+        // Wypisując taki array bezpośrednio do konsoli przy pomocy System.out.println zobaczymy tylko adres w pamięci danego array'a.
+        System.out.println("Array do posortowania: " + Arrays.toString(arrayDoPosorotwania));
+
+        // Aby posortować array'a mamy kilka możliwości. Jedną z nich jest zbudowanie mechanizmu sortującego samemu np. używając Bubble Sort.
+        // lub użyć gotowej funkcji Arrays.sort(naszArray);
+
+        // Przykład użycia Arrays.sort:
+        Arrays.sort(arrayDoPosorotwania);
+        System.out.println("Posortowany array: " + Arrays.toString(arrayDoPosorotwania));
+
+        // Możemy go zwizualizować następująco:
+        // -------------------------------------------------------------
+        // |  0  |  1  |  2  |  3  |  3  |  3  |  5  |  6  |  6  |  8  |
+        // -------------------------------------------------------------
+
 
         // ---------------------------------------------------------------------------------------------------------------------------
         // --------------------------------------------------------- Zadania ---------------------------------------------------------
@@ -213,9 +244,20 @@ public class ArrayTut
         // Wstaw do drugiej komórki liczbę 50.
         // Wyciągnij ją i przechowaj w zmiennej.
         // Wypisz zmienną w konsoli przy pomocy System.out.println tak aby liczba 50 wypisała się w konsoli.
+        int[] test = {1, 4, 7};
 
         // 3. Utwórz array posiadający kilka nazw owoców. Np. Jabłko, Gruszka, Mandarynka
         //   Następnie wypisz w konsoli wielkość tego arraya przy pomocy funkcji "length".
+
+
+        // 4. Dany jest array posiadający kilka imion. "Kacper", "Antek", "Jakub", "Bartek" oraz "Michał".
+        // Posortuj dany array oraz wypisz go w konsoli.
+        String[] arrayZImionami = {"Kacper", "Antek", "Jakub", "Bartek", "Michał"};
+
+        // 5. Dany jest array z liczbami całkowitymi.
+        // Napisz kod który wypisze największą liczbę całkowitą z danego array'a.
+        // Uwaga: Napisany kod powinien działać również poprawnie dla array'a z innymi liczbami.
+        int[] arrayZLiczbami = {4, 8, 2, 1, 9, 7, 4, 3};
 
     }
 }
