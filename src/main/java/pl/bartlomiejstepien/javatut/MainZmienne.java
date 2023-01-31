@@ -8,6 +8,8 @@ public class MainZmienne
         // Nauczymy się teraz jak tworzyć zmienne, jak przechowywać w nich wartości i jak ich używać.
         // Zmienna = wyraz, który przechowuje w sobie jakąś wartość
 
+        // Uwaga: Nie można tworzyć dwóch zmiennych o tej samej nazwie.
+
         // Deklaracja i przypisanie wartości do "zmiennej"
         // Przykłady:
         // 1. int x = 10;
@@ -16,7 +18,7 @@ public class MainZmienne
         // Wyjaśnienie do pkt 1:
         // int x = 10;
         // Co się tutaj dzieje?
-        // Po lewej stronie znaku "równa się" piszemy "typ" zmiennej oraz jej nazwę czyli w naszm przypadku "int x".
+        // Po lewej stronie znaku "równa się" piszemy "typ" zmiennej oraz jej nazwę, czyli w naszym przypadku "int x".
         // "int" oznacza typ zmiennej, która przechowuje liczby całkowite.
         // Po prawej stronie znaku "równa się" piszemy liczbę 10. Zmienna x będzie od teraz przechowywała wartość, którą jest 10.
         // Liczba 10 jest liczbą całkowitą. W programowaniu jest ona znana jako "integer" czyli liczba całkowita pomiędzy mniej więcej -2.500.000 a 2.500.000
@@ -33,7 +35,7 @@ public class MainZmienne
         // Każde wyrażenie w Javie kończymy ; (średnikiem), stąd też na końcu linii po "Górski" jest średnik.
 
         // Jak wypisać coś na ekranie konsoli?
-        // Aby wypisać coś na ekranie konsoli użyj funkcji System.out.println
+        // Aby wypisać coś na ekranie konsoli, użyj funkcji System.out.println
         // Przykład:
         // System.out.println(twojaZmienna)
         // lub
@@ -49,7 +51,7 @@ public class MainZmienne
         // Wypisz ją przy pomocy funckji System.out.println
 
         // Zadanie 3:
-        // Stwórz dwie zmienne. Jedna z liczbą 50 a druga z liczbą 10
+        // Stwórz dwie zmienne. Jedna z liczbą 50, a druga z liczbą 10
         // Podziel zmienną z liczbą 50 przez zmienną z liczbą 10
         // Następnie odejmij od wyniku liczbę 5 i wypisz wynik funkcją System.out.println
 

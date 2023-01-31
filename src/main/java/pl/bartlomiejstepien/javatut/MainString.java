@@ -9,12 +9,12 @@ public class MainString
         // ---------------------------------------------------------------------------------------------------------------------------
         // ------------------------------------------------------ String -------------------------------------------------------------
 
-        // Dzisiaj nauczymy się bardziej szczegółowo czym jest "String" czyli jeden z naczęściej używanych typów w Javie.
+        // Nauczymy się dzisiaj bardziej szczegółowo, czym jest "String", czyli jeden z najczęściej używanych typów w Javie.
 
         // String jest strukturą/typem danych przechowujący "sekwencję znaków".
         // Może to być jedno słowo lub całe zdanie.
 
-        // Jeśli chcesz przechować w zmiennej tylko jedną literę to dużo lepszym typem danych jest typ "char" lub "Character".
+        // Jeśli chcesz przechować w zmiennej tylko jedną literę, dużo lepszym typem danych jest typ "char" lub "Character".
         // String również może być użyty do przechowania jednej litery, ale zajmuje on wtedy więcej miejsca w pamięci niż "char".
 
         // Przykłady String'ów:
@@ -40,14 +40,14 @@ public class MainString
         // ---------------------------------------------------------------------------------------------------------------------------
         // ----------------------------------- Pozostałe operacje dostępne na Stringach ----------------------------------------------
 
-        // Kiedy utworzymy zmienną typu String możemy na niej wywołać wiele przydanch funkcji/metod.
+        // Kiedy utworzymy zmienną typu String, możemy na niej wywołać wiele przydatnych funkcji/metod.
         // Np.:
         // substring(start, end) - zwraca część Stringa
         // equals(obiekt) - porównuje Stringa z innym Stringiem
         // toUpperCase() - zwraca Stringa mającego zamienione wszystkie litery na drukowane.
         // toLowerCase() - zwraca Stringa mającego zamienione wszystkie litery na małe.
         // getBytes() - zwraca sekwencję bajtową Stringa
-        // endsWith(string) - sprawdza czy String kończy się danym przyrostekiem/sufiksem
+        // endsWith(string) - sprawdza, czy String kończy się danym przyrostkiem/sufiksem
 
         // Przykłady w praktyce
         // substring

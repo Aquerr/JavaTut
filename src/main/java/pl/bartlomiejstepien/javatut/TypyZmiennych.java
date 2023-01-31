@@ -5,30 +5,30 @@ public class TypyZmiennych
     public static void main(String[] args)
     {
         // W tym dziale dowiesz się jakie są podstawowe typy zmiennych w Javie.
-        // Dowiesz się również jak w czasie rzeczywistm sprawdzić jakiego typu jest dana zmienna.
+        // Dowiesz się również jak w czasie rzeczywistym sprawdzić jakiego typu jest dana zmienna.
 
 
         // ----------------------------------------------------------------------------------------------------
         // ----------------------------------------------- TYPY -----------------------------------------------
 
-        // Java, jak inne wysokopoziomowe języki programowania posiada wiele typów, którym możemy użyć podczas deklaracji zmiennej.
+        // Java, jak inne wysokopoziomowe języki programowania posiada wiele typów, których możemy użyć podczas deklaracji zmiennej.
         // https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
 
-        // Java jest statycznie typowanym językiem, oznacza to że każda zmienna musi być zostać najpierw zadeklarowana zanim zostanie użyta.
+        // Java jest statycznie typowanym językiem, oznacza to że każda zmienna musi zostać najpierw zadeklarowana zanim zostanie użyta.
         // Deklaracja polega na określeniu typu zmiennej oraz nadania jej wybranej przez nas nazwy.
         // To znaczy. Najpierw piszemy jakiego typu ma być nasza zmienna. Np. int
 
         // int
 
         // Później piszemy jej nazwę. Może to być dowolne słowo.
-        // W Javie z reguły używamy tutaj małych liter a każde kolejne słowo piszemy z dużej litery (bez spacji). Np. wiek, mojWiek, mojUkochanyPies
+        // W Javie z reguły używamy tutaj małych liter a każde kolejne słowo piszemy z wielkiej litery (bez spacji). Np. wiek, mojWiek, mojUkochanyPies
 
         // int wiek
 
         // Kolejno piszemy znak równa się oznaczający że chcemy coś przypisać do naszej zmiennej.
         // int wiek =
 
-        // I na końcu piszemy wartość jaką ma otrzymać nasza zmienna i kończymy wyrażenie średnikiem. Np. 34
+        // I na końcu piszemy wartość jaką ma otrzymać nasza zmienna i kończymy wyrażenie średnikiem. Np. 34;
         // int wiek = 34;
 
         // ----------------------------------------------------------------------------------------------------
@@ -42,7 +42,7 @@ public class TypyZmiennych
         // byte (liczba całkowita od -128 do +127)
         byte mojaMalaLiczba = 54;
 
-        // short (liczba całkoita od -32.768 do +32.767)
+        // short (liczba całkowita od -32.768 do +32.767)
         short mojaLiczbaShort = 12312;
 
         // char (znak/litera)
@@ -51,7 +51,7 @@ public class TypyZmiennych
         // int (liczba całkowita od -2.147.483.649 do +2.147.483.648)
         int wiek = 34;
 
-        // long (liczba całkoita od -9.223.372.036.854.775.808 do +9.223.372.036.854.775.807)
+        // long (liczba całkowita od -9.223.372.036.854.775.808 do +9.223.372.036.854.775.807)
         // Aby powiedzieć kompilatorowi że chcemy utworzyć long musimy na końcu liczby dopisać literę l lub L
         long wielkaLiczba = 93120931203910293L;
 
