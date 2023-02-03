@@ -163,5 +163,19 @@ public class MainWarunki
         // Jeśli nie to wypisz w konsoli zdanie "słowa się nie zgadzają"
         // Jeśli tak to wypisz w konsoli zdanie "słowa się zgadzają"
 
+        // Zadanie 5.
+        // Dane są gole drużyn w piłce nożnej, Polski oraz Szwecji.
+        // Sprawdź czy polska wygrala porównując strzelone gole.
+        // Jeśli tak, wpisz w konsoli zdanie "Polska wygrała!"
+        // Jeśli nie, wypisz w konsoli zdanie "Szwecja wygrała!"
+        // Jeśli remis, wpisz w konsoli zdanie "Mamy remis!"
+        // Notatka: Jeśli chcesz utworzyć więcej niż dwie "odnogi" w warunku, użyj else if
+
+        // Zadanie 6.
+        // Każda osoba z nazwiskiem kończącym się na "ski" pochodzi z rodu szlecheckiego.
+        // Sprawdź czy dane nazwisko kończy się na "ski".
+        // Jeśli tak, wypisz w konsoli zdanie "Nazwisko pochodzi z rodu szlacheckiego"
+        // Jeśli nie, wypisz w konsoli zdanie "Nazwisko nie pochodzi z rodu szlacheckiego"
+        String nazwisko = "Urbański";
     }
 }
