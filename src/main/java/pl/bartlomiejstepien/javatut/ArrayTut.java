@@ -240,11 +240,12 @@ public class ArrayTut
         // Wstaw do pierwszej komórki liczbę 40, do drugiej 20 a do trzeciej 10
         // Wypisz cały array w konsoli przy pomocy System.out.println oraz Arrays.toString
 
+
         // 2. Stwórz array przechwoujący inty o wielkości 2 komórek.
         // Wstaw do drugiej komórki liczbę 50.
         // Wyciągnij ją i przechowaj w zmiennej.
         // Wypisz zmienną w konsoli przy pomocy System.out.println tak aby liczba 50 wypisała się w konsoli.
-        int[] test = {1, 4, 7};
+
 
         // 3. Utwórz array posiadający kilka nazw owoców. Np. Jabłko, Gruszka, Mandarynka
         //   Następnie wypisz w konsoli wielkość tego arraya przy pomocy funkcji "length".
@@ -256,8 +257,12 @@ public class ArrayTut
 
         // 5. Dany jest array z liczbami całkowitymi.
         // Napisz kod który wypisze największą liczbę całkowitą z danego array'a.
-        // Uwaga: Napisany kod powinien działać również poprawnie dla array'a z innymi liczbami.
+        // Uwaga: Napisany kod powinien działać również poprawnie dla array'a z innymi liczbami i o innym rozmiarze.
         int[] arrayZLiczbami = {4, 8, 2, 1, 9, 7, 4, 3};
+
+        // 6. Dany jest array zawierający słowa zdania.
+        // Złącz elementy w jeden string tworzący zdanie i wypisz je w konsoli.
+        String[] arrayZdanie = {"Cześć,", "jak", "się", "masz?"};
 
     }
 }

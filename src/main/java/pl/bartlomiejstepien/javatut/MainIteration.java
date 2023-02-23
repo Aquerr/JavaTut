@@ -17,6 +17,11 @@ public class MainIteration
         // Pętla "while"
         // Pętla "do while"
 
+
+
+
+
+
         // ---------------------------------------------------------------------------------------------------------------------------
         // ----------------------------------------------------- PĘTLA FOR -----------------------------------------------------------
 
@@ -45,7 +50,7 @@ public class MainIteration
         // 4. Określiliśmy inkrementację naszej zmiennej aby zwiększała się o "jeden" przy każdym "okrążeniu". i++ oznacza to samo co i = i + 1
         // 5. Otworzyliśmy klamry pętli i umieściliśmy w nich System.out.println które wypisze w konsoli zdanie mówiące które okrążenie wykonuje właśnie pętla.
 
-        // Zauważ że w sekcji "Jak stworzyć pętlę?" powiedzieliśmy że w nawiasach pętli for "możesz" (cudzysłów) podać w nich 3 parametry.
+        // Zauważ że w sekcji "Jak stworzyć pętlę?" powiedzieliśmy że w nawiasach pętli for "możesz" podać w nich 3 parametry.
         // Pętla for nie wymaga tych parametrów aby działać, ale zazwyczaj się je podaje.
         // Poniższy przykład to też pełnoprawna pętla for, która będzie wykonywała się bez końca gdyż nie ma podanych warunków zakończenia.
 
@@ -178,7 +183,7 @@ public class MainIteration
         }
 
         // Co się tutaj dzieje?
-        // 1. Szukamy
+        // Iterujemy po array 'mojArray'
 
 
 
@@ -202,26 +207,31 @@ public class MainIteration
         // Wypełnij miejsca w swoim arrayu kolejnymi liczbami od 1 do 10 używając while
 
 
+        // 4. Dany jest array zawierający słowa zdania.
+        // Złącz elementy w jeden string używając wybranej przez siebie pętli. Wypisz utworzone zdanie w konsoli.
+        String[] arrayZdanie = {"Cześć,", "jak", "się", "masz?"};
 
-        // 4. Dany jest array z nazwiskami.
+
+
+        // 5. Dany jest array z nazwiskami.
         // Przeiteruj przez array i wypisz w konsoli tylko te nazwiska, które zaczynają się na literę "K".
         String[] nazwiska = {"Poniatowski", "Kowalski", "Matkowski", "Opolski", "Dąb", "Tomicki", "Kaczmarczyk", "Bukowiak"};
 
 
-        // 5. Dany jest array z liczbami.
+        // 6. Dany jest array z liczbami.
         // Sprawdź czy w array'u znajduje się liczba 4. Jeśli tak, wypisz w konsoli "Liczba cztery znajduje się w array'u",
         // jeśli nie, wypisz "Nie odnaleziono liczby 4 w arrayu".
         int[] liczby = {7, 2, 6, 10, 23, 4, 53, 64, 123};
 
 
 
-        // 6. Dane są dwa array'e.
+        // 7. Dane są dwa array'e.
         // Sprawdź czy posiadają tą samą zawartość przy pomocy pętli.
         int[] array1 = {80, 14, 32, 42, 13};
         int[] array2 = {14, 32, 80, 13, 42};
 
 
-        // 7. Dany jest array z kodami pocztowymi.
+        // 8. Dany jest array z kodami pocztowymi.
         // Przeiteruj przez array, sprawdzając długość kodu pocztowego.
         // Jeśli trafisz na kod pocztowy dłuższy niż 5 znaków:
         //  a. Pokaż komunikat "Znaleziono błędny kod pocztowy: X"
@@ -230,7 +240,7 @@ public class MainIteration
 
 
 
-        // 8. Dany jest string "kayak".
+        // 9. Dany jest string "kayak".
         // Stwórz mechanizm, który sprawdzi czy dane słowo jest palindromem. (Palindrom = słowo czytane normalnie i od tyłu daje to samo słowo)
 
 
